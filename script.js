@@ -68,7 +68,7 @@ function downloadPDF() {
 
   const opt = {
     margin: 0,
-    filename: "home-maintenance-log.pdf",
+    filename: "homemaintenance-log.pdf",
     image: { type: "jpeg", quality: 1 },
     html2canvas: { scale: 2, useCORS: true, scrollX: 0, scrollY: 0 },
     jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
